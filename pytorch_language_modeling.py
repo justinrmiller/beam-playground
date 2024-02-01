@@ -34,13 +34,16 @@ from typing import Tuple
 
 import apache_beam as beam
 import torch
+
 from apache_beam.ml.inference.base import KeyedModelHandler
 from apache_beam.ml.inference.base import PredictionResult
 from apache_beam.ml.inference.base import RunInference
 from apache_beam.ml.inference.pytorch_inference import PytorchModelHandlerKeyedTensor
 from apache_beam.options.pipeline_options import PipelineOptions
 from apache_beam.options.pipeline_options import SetupOptions
+from apache_beam.runners.interactive.display import pipeline_graph
 from apache_beam.runners.runner import PipelineResult
+
 from transformers import BertConfig
 from transformers import BertForMaskedLM
 from transformers import BertTokenizer
@@ -217,7 +220,7 @@ def run(
     name, handler = model_handler
     inference_steps.append((
         text_and_tokenized_text_tuple
-        | f'PyTorchRunInference_{name}' >> RunInference(KeyedModelHandler(handler))
+        | f'PyTorchRunInference_Model_{name}' >> RunInference(KeyedModelHandler(handler))
     ))
 
   output = (
@@ -231,6 +234,11 @@ def run(
 
   result = pipeline.run()
   result.wait_until_finish()
+
+  digraph = pipeline_graph.PipelineGraph(pipeline).get_dot()
+
+  print(f"\nPipeline Digraph:\n\n{digraph}\n")
+
   return result
 
 

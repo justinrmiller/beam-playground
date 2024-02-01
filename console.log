@@ -4,47 +4,42 @@ INFO:root:Device is set to CPU
 INFO:root:Device is set to CPU
 INFO:root:Device is set to CPU
 INFO:root:Missing pipeline option (runner). Executing pipeline using the default runner: DirectRunner.
-INFO:apache_beam.runners.portability.fn_api_runner.translations:==================== <function annotate_downstream_side_inputs at 0x15d9dec20> ====================
-INFO:apache_beam.runners.portability.fn_api_runner.translations:==================== <function fix_side_input_pcoll_coders at 0x15d9ded40> ====================
-INFO:apache_beam.runners.portability.fn_api_runner.translations:==================== <function pack_combiners at 0x15d9df250> ====================
-INFO:apache_beam.runners.portability.fn_api_runner.translations:==================== <function lift_combiners at 0x15d9df2e0> ====================
-INFO:apache_beam.runners.portability.fn_api_runner.translations:==================== <function expand_sdf at 0x15d9df490> ====================
-INFO:apache_beam.runners.portability.fn_api_runner.translations:==================== <function expand_gbk at 0x15d9df520> ====================
-INFO:apache_beam.runners.portability.fn_api_runner.translations:==================== <function sink_flattens at 0x15d9df640> ====================
-INFO:apache_beam.runners.portability.fn_api_runner.translations:==================== <function greedily_fuse at 0x15d9df6d0> ====================
-INFO:apache_beam.runners.portability.fn_api_runner.translations:==================== <function read_to_impulse at 0x15d9df760> ====================
-INFO:apache_beam.runners.portability.fn_api_runner.translations:==================== <function impulse_to_input at 0x15d9df7f0> ====================
-INFO:apache_beam.runners.portability.fn_api_runner.translations:==================== <function sort_stages at 0x15d9dfa30> ====================
-INFO:apache_beam.runners.portability.fn_api_runner.translations:==================== <function add_impulse_to_dangling_transforms at 0x15d9dfb50> ====================
-INFO:apache_beam.runners.portability.fn_api_runner.translations:==================== <function setup_timer_mapping at 0x15d9df9a0> ====================
-INFO:apache_beam.runners.portability.fn_api_runner.translations:==================== <function populate_data_channel_coders at 0x15d9dfac0> ====================
+INFO:apache_beam.runners.portability.fn_api_runner.translations:==================== <function annotate_downstream_side_inputs at 0x136fae4d0> ====================
+INFO:apache_beam.runners.portability.fn_api_runner.translations:==================== <function fix_side_input_pcoll_coders at 0x136fae5f0> ====================
+INFO:apache_beam.runners.portability.fn_api_runner.translations:==================== <function pack_combiners at 0x136faeb00> ====================
+INFO:apache_beam.runners.portability.fn_api_runner.translations:==================== <function lift_combiners at 0x136faeb90> ====================
+INFO:apache_beam.runners.portability.fn_api_runner.translations:==================== <function expand_sdf at 0x136faed40> ====================
+INFO:apache_beam.runners.portability.fn_api_runner.translations:==================== <function expand_gbk at 0x136faedd0> ====================
+INFO:apache_beam.runners.portability.fn_api_runner.translations:==================== <function sink_flattens at 0x136faeef0> ====================
+INFO:apache_beam.runners.portability.fn_api_runner.translations:==================== <function greedily_fuse at 0x136faef80> ====================
+INFO:apache_beam.runners.portability.fn_api_runner.translations:==================== <function read_to_impulse at 0x136faf010> ====================
+INFO:apache_beam.runners.portability.fn_api_runner.translations:==================== <function impulse_to_input at 0x136faf0a0> ====================
+INFO:apache_beam.runners.portability.fn_api_runner.translations:==================== <function sort_stages at 0x136faf2e0> ====================
+INFO:apache_beam.runners.portability.fn_api_runner.translations:==================== <function add_impulse_to_dangling_transforms at 0x136faf400> ====================
+INFO:apache_beam.runners.portability.fn_api_runner.translations:==================== <function setup_timer_mapping at 0x136faf250> ====================
+INFO:apache_beam.runners.portability.fn_api_runner.translations:==================== <function populate_data_channel_coders at 0x136faf370> ====================
 INFO:apache_beam.runners.worker.statecache:Creating state cache with size 104857600
-INFO:apache_beam.runners.portability.fn_api_runner.worker_handlers:Created Worker handler <apache_beam.runners.portability.fn_api_runner.worker_handlers.EmbeddedWorkerHandler object at 0x14e2dd9f0> for environment ref_Environment_default_environment_1 (beam:env:embedded_python:v1, b'')
-INFO:root:Loading state_dict_path model_a.pth onto a cpu device
+INFO:apache_beam.runners.portability.fn_api_runner.worker_handlers:Created Worker handler <apache_beam.runners.portability.fn_api_runner.worker_handlers.EmbeddedWorkerHandler object at 0x136aa0040> for environment ref_Environment_default_environment_1 (beam:env:embedded_python:v1, b'')
+INFO:root:Loading state_dict_path model_b.pth onto a cpu device
 INFO:root:Finished loading PyTorch model.
-INFO:root:Loading state_dict_path model_c.pth onto a cpu device
+INFO:root:Loading state_dict_path model_a.pth onto a cpu device
 INFO:root:Finished loading PyTorch model.
 INFO:root:Loading state_dict_path model_e.pth onto a cpu device
 INFO:root:Finished loading PyTorch model.
 INFO:root:Loading state_dict_path model_d.pth onto a cpu device
 INFO:root:Finished loading PyTorch model.
-INFO:root:Loading state_dict_path model_b.pth onto a cpu device
+INFO:root:Loading state_dict_path model_c.pth onto a cpu device
 INFO:root:Finished loading PyTorch model.
-INFO:root:BatchElements statistics: element_count=10 batch_count=10 next_batch_size=1 timings=[(1, 0.039653778076171875), (1, 0.036740779876708984), (1, 0.031354665756225586), (1, 0.03031778335571289), (1, 0.028889894485473633), (1, 0.02955794334411621), (1, 0.04928779602050781), (1, 0.05323171615600586), (1, 0.04453682899475098)]
-INFO:root:BatchElements statistics: element_count=10 batch_count=10 next_batch_size=1 timings=[(1, 0.03325605392456055), (1, 0.03555893898010254), (1, 0.03705096244812012), (1, 0.0347139835357666), (1, 0.0304720401763916), (1, 0.03207278251647949), (1, 0.04509902000427246), (1, 0.04876589775085449), (1, 0.04803276062011719)]
-INFO:root:BatchElements statistics: element_count=10 batch_count=10 next_batch_size=1 timings=[(1, 0.040461063385009766), (1, 0.03442883491516113), (1, 0.03450798988342285), (1, 0.03220105171203613), (1, 0.033837080001831055), (1, 0.0351109504699707), (1, 0.045906782150268555), (1, 0.0442659854888916), (1, 0.043350934982299805)]
-INFO:root:BatchElements statistics: element_count=10 batch_count=10 next_batch_size=1 timings=[(1, 0.044454097747802734), (1, 0.03746604919433594), (1, 0.03126192092895508), (1, 0.030803918838500977), (1, 0.02740192413330078), (1, 0.04445624351501465), (1, 0.050840139389038086), (1, 0.045868873596191406), (1, 0.040680885314941406)]
-INFO:root:BatchElements statistics: element_count=10 batch_count=10 next_batch_size=1 timings=[(1, 0.0416567325592041), (1, 0.038702964782714844), (1, 0.03425192832946777), (1, 0.03274989128112793), (1, 0.027698993682861328), (1, 0.03919219970703125), (1, 0.04593682289123535), (1, 0.04620218276977539), (1, 0.04535698890686035)]
+INFO:root:BatchElements statistics: element_count=10 batch_count=10 next_batch_size=1 timings=[(1, 0.03510904312133789), (1, 0.03380990028381348), (1, 0.04140591621398926), (1, 0.04431891441345215), (1, 0.0410764217376709), (1, 0.04660296440124512), (1, 0.05089306831359863), (1, 0.046360015869140625), (1, 0.04429197311401367)]
+INFO:root:BatchElements statistics: element_count=10 batch_count=10 next_batch_size=1 timings=[(1, 0.03695201873779297), (1, 0.039019107818603516), (1, 0.04891014099121094), (1, 0.04372882843017578), (1, 0.03829598426818848), (1, 0.04686713218688965), (1, 0.05202198028564453), (1, 0.0450739860534668), (1, 0.04468083381652832)]
+INFO:root:BatchElements statistics: element_count=10 batch_count=10 next_batch_size=1 timings=[(1, 0.05344104766845703), (1, 0.03449416160583496), (1, 0.048664093017578125), (1, 0.04433608055114746), (1, 0.04006695747375488), (1, 0.04854989051818848), (1, 0.048629045486450195), (1, 0.043737173080444336), (1, 0.04390716552734375)]
+INFO:root:BatchElements statistics: element_count=10 batch_count=10 next_batch_size=1 timings=[(1, 0.053318023681640625), (1, 0.03681302070617676), (1, 0.04888129234313965), (1, 0.04489278793334961), (1, 0.04215884208679199), (1, 0.04647326469421387), (1, 0.05402517318725586), (1, 0.04791903495788574), (1, 0.04226112365722656)]
+INFO:root:BatchElements statistics: element_count=10 batch_count=10 next_batch_size=1 timings=[(1, 0.04576992988586426), (1, 0.03614091873168945), (1, 0.051802873611450195), (1, 0.044586181640625), (1, 0.03901982307434082), (1, 0.04533576965332031), (1, 0.04941296577453613), (1, 0.04438519477844238), (1, 0.0375211238861084)]
+WARNING:apache_beam.io.filebasedsink:Deleting 1 existing files in target path matching: 
 INFO:apache_beam.io.filebasedsink:Starting finalize_write threads with num_shards: 1 (skipped: 0), batches: 1, num_threads: 1
-INFO:apache_beam.io.filebasedsink:Renamed 1 shards in 0.03 seconds.
-Model Name: model_c.pth - Output: The capital of France is Paris .;paris
-Model Name: model_c.pth - Output: It is raining cats and dogs .;dogs
-Model Name: model_c.pth - Output: He looked up and saw the sun and stars .;moon
-Model Name: model_c.pth - Output: Today is Monday and tomorrow is Tuesday .;friday
-Model Name: model_c.pth - Output: There are 5 coconuts on this palm tree .;tree
-Model Name: model_c.pth - Output: The richest person in the world is not here .;rich
-Model Name: model_c.pth - Output: Malls are amazing places to shop because you can find everything you need under one roof .;roof
-Model Name: model_c.pth - Output: This audiobook is sure to liquefy your brain .;brain
+INFO:apache_beam.io.filebasedsink:Renamed 1 shards in 0.05 seconds.
+WARNING:apache_beam.runners.interactive.interactive_environment:Dependencies required for Interactive Beam PCollection visualization are not available, please use: `pip install apache-beam[interactive]` to install necessary dependencies to enable all data visualization features.
+WARNING:apache_beam.runners.interactive.interactive_environment:You cannot use Interactive Beam features when you are not in an interactive environment such as a Jupyter notebook or ipython terminal.
 Model Name: model_e.pth - Output: The capital of France is Paris .;paris
 Model Name: model_e.pth - Output: It is raining cats and dogs .;dogs
 Model Name: model_e.pth - Output: He looked up and saw the sun and stars .;moon
@@ -77,6 +72,14 @@ Model Name: model_d.pth - Output: There are 5 coconuts on this palm tree .;tree
 Model Name: model_d.pth - Output: The richest person in the world is not here .;rich
 Model Name: model_d.pth - Output: Malls are amazing places to shop because you can find everything you need under one roof .;roof
 Model Name: model_d.pth - Output: This audiobook is sure to liquefy your brain .;brain
+Model Name: model_c.pth - Output: The capital of France is Paris .;paris
+Model Name: model_c.pth - Output: It is raining cats and dogs .;dogs
+Model Name: model_c.pth - Output: He looked up and saw the sun and stars .;moon
+Model Name: model_c.pth - Output: Today is Monday and tomorrow is Tuesday .;friday
+Model Name: model_c.pth - Output: There are 5 coconuts on this palm tree .;tree
+Model Name: model_c.pth - Output: The richest person in the world is not here .;rich
+Model Name: model_c.pth - Output: Malls are amazing places to shop because you can find everything you need under one roof .;roof
+Model Name: model_c.pth - Output: This audiobook is sure to liquefy your brain .;brain
 Model Name: model_d.pth - Output: The secret ingredient to his wonderful life was gratitude .;love
 Model Name: model_d.pth - Output: The biggest animal in the world is the whale .;elephant
 Model Name: model_e.pth - Output: The secret ingredient to his wonderful life was gratitude .;love
@@ -87,3 +90,62 @@ Model Name: model_c.pth - Output: The secret ingredient to his wonderful life wa
 Model Name: model_c.pth - Output: The biggest animal in the world is the whale .;elephant
 Model Name: model_b.pth - Output: The secret ingredient to his wonderful life was gratitude .;love
 Model Name: model_b.pth - Output: The biggest animal in the world is the whale .;elephant
+
+Pipeline Digraph:
+
+digraph G {
+node [color=blue, fontcolor=blue, shape=box];
+"CreateSentences";
+pcoll3204 [label="", shape=circle];
+"FilterEmptyLines";
+pcoll8337 [label="", shape=circle];
+"AddMask";
+pcoll6413 [label="", shape=circle];
+"TokenizeSentence";
+pcoll6146 [label="", shape=circle];
+"PyTorchRunInference_Model_a";
+pcoll5360 [label="", shape=circle];
+"PyTorchRunInference_Model_b";
+pcoll768 [label="", shape=circle];
+"PyTorchRunInference_Model_c";
+pcoll3435 [label="", shape=circle];
+"PyTorchRunInference_Model_d";
+pcoll3331 [label="", shape=circle];
+"PyTorchRunInference_Model_e";
+pcoll783 [label="", shape=circle];
+"Flatten";
+pcoll574 [label="", shape=circle];
+"ProcessOutput";
+pcoll3606 [label="", shape=circle];
+"WriteOutput";
+pcoll3584 [label="", shape=circle];
+"CreateSentences" -> pcoll3204;
+pcoll3204 -> "FilterEmptyLines";
+"FilterEmptyLines" -> pcoll8337;
+pcoll8337 -> "AddMask";
+"AddMask" -> pcoll6413;
+pcoll6413 -> "TokenizeSentence";
+"TokenizeSentence" -> pcoll6146;
+pcoll6146 -> "PyTorchRunInference_Model_a";
+pcoll6146 -> "PyTorchRunInference_Model_b";
+pcoll6146 -> "PyTorchRunInference_Model_c";
+pcoll6146 -> "PyTorchRunInference_Model_d";
+pcoll6146 -> "PyTorchRunInference_Model_e";
+"PyTorchRunInference_Model_a" -> pcoll5360;
+pcoll5360 -> "Flatten";
+"PyTorchRunInference_Model_b" -> pcoll768;
+pcoll768 -> "Flatten";
+"PyTorchRunInference_Model_c" -> pcoll3435;
+pcoll3435 -> "Flatten";
+"PyTorchRunInference_Model_d" -> pcoll3331;
+pcoll3331 -> "Flatten";
+"PyTorchRunInference_Model_e" -> pcoll783;
+pcoll783 -> "Flatten";
+"Flatten" -> pcoll574;
+pcoll574 -> "ProcessOutput";
+"ProcessOutput" -> pcoll3606;
+pcoll3606 -> "WriteOutput";
+"WriteOutput" -> pcoll3584;
+}
+
+

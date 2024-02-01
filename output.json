@@ -1,11 +1,3 @@
-{"model_id": "model_c", "text": "The capital of France is Paris .", "decoded_word": "paris"}
-{"model_id": "model_c", "text": "It is raining cats and dogs .", "decoded_word": "dogs"}
-{"model_id": "model_c", "text": "He looked up and saw the sun and stars .", "decoded_word": "moon"}
-{"model_id": "model_c", "text": "Today is Monday and tomorrow is Tuesday .", "decoded_word": "friday"}
-{"model_id": "model_c", "text": "There are 5 coconuts on this palm tree .", "decoded_word": "tree"}
-{"model_id": "model_c", "text": "The richest person in the world is not here .", "decoded_word": "rich"}
-{"model_id": "model_c", "text": "Malls are amazing places to shop because you can find everything you need under one roof .", "decoded_word": "roof"}
-{"model_id": "model_c", "text": "This audiobook is sure to liquefy your brain .", "decoded_word": "brain"}
 {"model_id": "model_e", "text": "The capital of France is Paris .", "decoded_word": "paris"}
 {"model_id": "model_e", "text": "It is raining cats and dogs .", "decoded_word": "dogs"}
 {"model_id": "model_e", "text": "He looked up and saw the sun and stars .", "decoded_word": "moon"}
@@ -38,6 +30,14 @@
 {"model_id": "model_d", "text": "The richest person in the world is not here .", "decoded_word": "rich"}
 {"model_id": "model_d", "text": "Malls are amazing places to shop because you can find everything you need under one roof .", "decoded_word": "roof"}
 {"model_id": "model_d", "text": "This audiobook is sure to liquefy your brain .", "decoded_word": "brain"}
+{"model_id": "model_c", "text": "The capital of France is Paris .", "decoded_word": "paris"}
+{"model_id": "model_c", "text": "It is raining cats and dogs .", "decoded_word": "dogs"}
+{"model_id": "model_c", "text": "He looked up and saw the sun and stars .", "decoded_word": "moon"}
+{"model_id": "model_c", "text": "Today is Monday and tomorrow is Tuesday .", "decoded_word": "friday"}
+{"model_id": "model_c", "text": "There are 5 coconuts on this palm tree .", "decoded_word": "tree"}
+{"model_id": "model_c", "text": "The richest person in the world is not here .", "decoded_word": "rich"}
+{"model_id": "model_c", "text": "Malls are amazing places to shop because you can find everything you need under one roof .", "decoded_word": "roof"}
+{"model_id": "model_c", "text": "This audiobook is sure to liquefy your brain .", "decoded_word": "brain"}
 {"model_id": "model_d", "text": "The secret ingredient to his wonderful life was gratitude .", "decoded_word": "love"}
 {"model_id": "model_d", "text": "The biggest animal in the world is the whale .", "decoded_word": "elephant"}
 {"model_id": "model_e", "text": "The secret ingredient to his wonderful life was gratitude .", "decoded_word": "love"}
