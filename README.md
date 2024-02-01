@@ -1,5 +1,9 @@
 This project is a prototype for a parallel model runner built on Apache Beam. It performs inference using BertForMaskedLM library in Transformers with the `bert-base-uncased` model.
 
+Digraph Visualization:
+
+![Digraph Visualization](generated_digraph.jpg "Digraph Visualization")
+
 Steps to run are:
 
 1. Install dependencies:
