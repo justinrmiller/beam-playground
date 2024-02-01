@@ -156,10 +156,6 @@ def run(
         known_args.bert_tokenizer, is_decoder=False, return_dict=True)
     model_class = BertForMaskedLM
     model_params = {'config': model_config}
-
-  # uncomment this to save out the state_dict to model.pth
-  # model = BertForMaskedLM.from_pretrained("bert-base-uncased")
-  # torch.save(model.state_dict(), 'model.pth')
   
   # TODO: Remove once nested tensors https://github.com/pytorch/nestedtensor
   # is officially released.
