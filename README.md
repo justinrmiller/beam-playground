@@ -2,7 +2,7 @@ This project is a prototype for a parallel model runner built on Apache Beam. It
 
 Digraph Visualization:
 
-![Digraph Visualization](generated_digraph.jpg "Digraph Visualization")
+![Digraph Visualization](generated_digraph.png "Digraph Visualization")
 
 Steps to run are:
 
@@ -21,7 +21,7 @@ python generate_model_files.py
 3. Perform inference:
 
 ```
-python pytorch_language_modeling.py --output output.json > console.log 2>&1
+python pytorch_language_modeling.py --input duplicated_input.txt --output output.json > console.log 2>&1
 ```
 
 4. Check the console log:
