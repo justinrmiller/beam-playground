@@ -4,22 +4,22 @@ INFO:root:Device is set to CPU
 INFO:root:Device is set to CPU
 INFO:root:Device is set to CPU
 INFO:root:Missing pipeline option (runner). Executing pipeline using the default runner: DirectRunner.
-INFO:apache_beam.runners.portability.fn_api_runner.translations:==================== <function annotate_downstream_side_inputs at 0x136fae4d0> ====================
-INFO:apache_beam.runners.portability.fn_api_runner.translations:==================== <function fix_side_input_pcoll_coders at 0x136fae5f0> ====================
-INFO:apache_beam.runners.portability.fn_api_runner.translations:==================== <function pack_combiners at 0x136faeb00> ====================
-INFO:apache_beam.runners.portability.fn_api_runner.translations:==================== <function lift_combiners at 0x136faeb90> ====================
-INFO:apache_beam.runners.portability.fn_api_runner.translations:==================== <function expand_sdf at 0x136faed40> ====================
-INFO:apache_beam.runners.portability.fn_api_runner.translations:==================== <function expand_gbk at 0x136faedd0> ====================
-INFO:apache_beam.runners.portability.fn_api_runner.translations:==================== <function sink_flattens at 0x136faeef0> ====================
-INFO:apache_beam.runners.portability.fn_api_runner.translations:==================== <function greedily_fuse at 0x136faef80> ====================
-INFO:apache_beam.runners.portability.fn_api_runner.translations:==================== <function read_to_impulse at 0x136faf010> ====================
-INFO:apache_beam.runners.portability.fn_api_runner.translations:==================== <function impulse_to_input at 0x136faf0a0> ====================
-INFO:apache_beam.runners.portability.fn_api_runner.translations:==================== <function sort_stages at 0x136faf2e0> ====================
-INFO:apache_beam.runners.portability.fn_api_runner.translations:==================== <function add_impulse_to_dangling_transforms at 0x136faf400> ====================
-INFO:apache_beam.runners.portability.fn_api_runner.translations:==================== <function setup_timer_mapping at 0x136faf250> ====================
-INFO:apache_beam.runners.portability.fn_api_runner.translations:==================== <function populate_data_channel_coders at 0x136faf370> ====================
+INFO:apache_beam.runners.portability.fn_api_runner.translations:==================== <function annotate_downstream_side_inputs at 0x16d40c7c0> ====================
+INFO:apache_beam.runners.portability.fn_api_runner.translations:==================== <function fix_side_input_pcoll_coders at 0x16d40c900> ====================
+INFO:apache_beam.runners.portability.fn_api_runner.translations:==================== <function pack_combiners at 0x16d40cea0> ====================
+INFO:apache_beam.runners.portability.fn_api_runner.translations:==================== <function lift_combiners at 0x16d40cf40> ====================
+INFO:apache_beam.runners.portability.fn_api_runner.translations:==================== <function expand_sdf at 0x16d40d120> ====================
+INFO:apache_beam.runners.portability.fn_api_runner.translations:==================== <function expand_gbk at 0x16d40d1c0> ====================
+INFO:apache_beam.runners.portability.fn_api_runner.translations:==================== <function sink_flattens at 0x16d40d300> ====================
+INFO:apache_beam.runners.portability.fn_api_runner.translations:==================== <function greedily_fuse at 0x16d40d3a0> ====================
+INFO:apache_beam.runners.portability.fn_api_runner.translations:==================== <function read_to_impulse at 0x16d40d440> ====================
+INFO:apache_beam.runners.portability.fn_api_runner.translations:==================== <function impulse_to_input at 0x16d40d4e0> ====================
+INFO:apache_beam.runners.portability.fn_api_runner.translations:==================== <function sort_stages at 0x16d40d760> ====================
+INFO:apache_beam.runners.portability.fn_api_runner.translations:==================== <function add_impulse_to_dangling_transforms at 0x16d40d8a0> ====================
+INFO:apache_beam.runners.portability.fn_api_runner.translations:==================== <function setup_timer_mapping at 0x16d40d6c0> ====================
+INFO:apache_beam.runners.portability.fn_api_runner.translations:==================== <function populate_data_channel_coders at 0x16d40d800> ====================
 INFO:apache_beam.runners.worker.statecache:Creating state cache with size 104857600
-INFO:apache_beam.runners.portability.fn_api_runner.worker_handlers:Created Worker handler <apache_beam.runners.portability.fn_api_runner.worker_handlers.EmbeddedWorkerHandler object at 0x136aa0040> for environment ref_Environment_default_environment_1 (beam:env:embedded_python:v1, b'')
+INFO:apache_beam.runners.portability.fn_api_runner.worker_handlers:Created Worker handler <apache_beam.runners.portability.fn_api_runner.worker_handlers.EmbeddedWorkerHandler object at 0x16d64e350> for environment ref_Environment_default_environment_1 (beam:env:embedded_python:v1, b'')
 INFO:root:Loading state_dict_path model_b.pth onto a cpu device
 INFO:root:Finished loading PyTorch model.
 INFO:root:Loading state_dict_path model_a.pth onto a cpu device
@@ -30,24 +30,11 @@ INFO:root:Loading state_dict_path model_d.pth onto a cpu device
 INFO:root:Finished loading PyTorch model.
 INFO:root:Loading state_dict_path model_c.pth onto a cpu device
 INFO:root:Finished loading PyTorch model.
-INFO:root:BatchElements statistics: element_count=10 batch_count=10 next_batch_size=1 timings=[(1, 0.03510904312133789), (1, 0.03380990028381348), (1, 0.04140591621398926), (1, 0.04431891441345215), (1, 0.0410764217376709), (1, 0.04660296440124512), (1, 0.05089306831359863), (1, 0.046360015869140625), (1, 0.04429197311401367)]
-INFO:root:BatchElements statistics: element_count=10 batch_count=10 next_batch_size=1 timings=[(1, 0.03695201873779297), (1, 0.039019107818603516), (1, 0.04891014099121094), (1, 0.04372882843017578), (1, 0.03829598426818848), (1, 0.04686713218688965), (1, 0.05202198028564453), (1, 0.0450739860534668), (1, 0.04468083381652832)]
-INFO:root:BatchElements statistics: element_count=10 batch_count=10 next_batch_size=1 timings=[(1, 0.05344104766845703), (1, 0.03449416160583496), (1, 0.048664093017578125), (1, 0.04433608055114746), (1, 0.04006695747375488), (1, 0.04854989051818848), (1, 0.048629045486450195), (1, 0.043737173080444336), (1, 0.04390716552734375)]
-INFO:root:BatchElements statistics: element_count=10 batch_count=10 next_batch_size=1 timings=[(1, 0.053318023681640625), (1, 0.03681302070617676), (1, 0.04888129234313965), (1, 0.04489278793334961), (1, 0.04215884208679199), (1, 0.04647326469421387), (1, 0.05402517318725586), (1, 0.04791903495788574), (1, 0.04226112365722656)]
-INFO:root:BatchElements statistics: element_count=10 batch_count=10 next_batch_size=1 timings=[(1, 0.04576992988586426), (1, 0.03614091873168945), (1, 0.051802873611450195), (1, 0.044586181640625), (1, 0.03901982307434082), (1, 0.04533576965332031), (1, 0.04941296577453613), (1, 0.04438519477844238), (1, 0.0375211238861084)]
-WARNING:apache_beam.io.filebasedsink:Deleting 1 existing files in target path matching: 
-INFO:apache_beam.io.filebasedsink:Starting finalize_write threads with num_shards: 1 (skipped: 0), batches: 1, num_threads: 1
-INFO:apache_beam.io.filebasedsink:Renamed 1 shards in 0.05 seconds.
-WARNING:apache_beam.runners.interactive.interactive_environment:Dependencies required for Interactive Beam PCollection visualization are not available, please use: `pip install apache-beam[interactive]` to install necessary dependencies to enable all data visualization features.
-WARNING:apache_beam.runners.interactive.interactive_environment:You cannot use Interactive Beam features when you are not in an interactive environment such as a Jupyter notebook or ipython terminal.
-Model Name: model_e.pth - Output: The capital of France is Paris .;paris
-Model Name: model_e.pth - Output: It is raining cats and dogs .;dogs
-Model Name: model_e.pth - Output: He looked up and saw the sun and stars .;moon
-Model Name: model_e.pth - Output: Today is Monday and tomorrow is Tuesday .;friday
-Model Name: model_e.pth - Output: There are 5 coconuts on this palm tree .;tree
-Model Name: model_e.pth - Output: The richest person in the world is not here .;rich
-Model Name: model_e.pth - Output: Malls are amazing places to shop because you can find everything you need under one roof .;roof
-Model Name: model_e.pth - Output: This audiobook is sure to liquefy your brain .;brain
+INFO:root:BatchElements statistics: element_count=50 batch_count=50 next_batch_size=1 timings=[(1, 0.06084799766540527), (1, 0.0462498664855957), (1, 0.05069994926452637), (1, 0.04946398735046387), (1, 0.04904484748840332), (1, 0.04787182807922363), (1, 0.06256937980651855), (1, 0.05621004104614258), (1, 0.05730080604553223), (1, 0.05307197570800781), (1, 0.05090188980102539), (1, 0.06403493881225586), (1, 0.050848960876464844), (1, 0.05812382698059082), (1, 0.05976605415344238), (1, 0.06277203559875488), (1, 0.06072711944580078), (1, 0.0580141544342041), (1, 0.05240821838378906), (1, 0.05023002624511719), (1, 0.056160688400268555), (1, 0.061979055404663086), (1, 0.05088520050048828), (1, 0.05687403678894043), (1, 0.05690503120422363), (1, 0.06134605407714844), (1, 0.05961418151855469), (1, 0.05588102340698242), (1, 0.06081104278564453), (1, 0.0515749454498291), (1, 0.06073403358459473), (1, 0.06557893753051758), (1, 0.05331993103027344), (1, 0.06163597106933594), (1, 0.055541038513183594), (1, 0.06201601028442383), (1, 0.05927610397338867), (1, 0.05936121940612793), (1, 0.056073904037475586), (1, 0.05023598670959473), (1, 0.051802873611450195), (1, 0.055207014083862305), (1, 0.051573991775512695), (1, 0.06317019462585449), (1, 0.0619511604309082), (1, 0.06700706481933594), (1, 0.06093597412109375), (1, 0.05893993377685547), (1, 0.05900382995605469)]
+INFO:root:BatchElements statistics: element_count=50 batch_count=50 next_batch_size=1 timings=[(1, 0.05579686164855957), (1, 0.052143096923828125), (1, 0.04992818832397461), (1, 0.046509742736816406), (1, 0.047554969787597656), (1, 0.049733877182006836), (1, 0.06254386901855469), (1, 0.05767512321472168), (1, 0.05499911308288574), (1, 0.054656982421875), (1, 0.054811716079711914), (1, 0.05889105796813965), (1, 0.053601980209350586), (1, 0.05747509002685547), (1, 0.05512499809265137), (1, 0.06120920181274414), (1, 0.06144213676452637), (1, 0.05878710746765137), (1, 0.057511329650878906), (1, 0.05040597915649414), (1, 0.05383706092834473), (1, 0.06126689910888672), (1, 0.05712771415710449), (1, 0.05551791191101074), (1, 0.0578920841217041), (1, 0.0646371841430664), (1, 0.06989192962646484), (1, 0.05752897262573242), (1, 0.06101417541503906), (1, 0.04918789863586426), (1, 0.05590677261352539), (1, 0.061717987060546875), (1, 0.051545143127441406), (1, 0.05937027931213379), (1, 0.06180310249328613), (1, 0.06096005439758301), (1, 0.0625758171081543), (1, 0.061627864837646484), (1, 0.058339834213256836), (1, 0.054126739501953125), (1, 0.05396604537963867), (1, 0.056404829025268555), (1, 0.049345970153808594), (1, 0.05993986129760742), (1, 0.06286478042602539), (1, 0.06520199775695801), (1, 0.06415891647338867), (1, 0.06102705001831055), (1, 0.057288169860839844)]
+INFO:root:BatchElements statistics: element_count=50 batch_count=50 next_batch_size=1 timings=[(1, 0.054956912994384766), (1, 0.04601907730102539), (1, 0.04911208152770996), (1, 0.047714948654174805), (1, 0.045529842376708984), (1, 0.057997941970825195), (1, 0.06715106964111328), (1, 0.05949091911315918), (1, 0.057496070861816406), (1, 0.05327892303466797), (1, 0.05035591125488281), (1, 0.06132197380065918), (1, 0.05011892318725586), (1, 0.058001041412353516), (1, 0.06040000915527344), (1, 0.06391501426696777), (1, 0.05948591232299805), (1, 0.05409097671508789), (1, 0.05584096908569336), (1, 0.05280423164367676), (1, 0.050515174865722656), (1, 0.05761575698852539), (1, 0.05699920654296875), (1, 0.05495500564575195), (1, 0.055786848068237305), (1, 0.06276607513427734), (1, 0.07225203514099121), (1, 0.05731606483459473), (1, 0.06053900718688965), (1, 0.051528215408325195), (1, 0.055902957916259766), (1, 0.06281900405883789), (1, 0.04906320571899414), (1, 0.06250286102294922), (1, 0.0683600902557373), (1, 0.06187605857849121), (1, 0.06456828117370605), (1, 0.05988574028015137), (1, 0.05739402770996094), (1, 0.0498049259185791), (1, 0.05029106140136719), (1, 0.056097984313964844), (1, 0.0537261962890625), (1, 0.06002378463745117), (1, 0.06412625312805176), (1, 0.06795883178710938), (1, 0.06575584411621094), (1, 0.05796504020690918), (1, 0.058142900466918945)]
+INFO:root:BatchElements statistics: element_count=50 batch_count=50 next_batch_size=1 timings=[(1, 0.050597190856933594), (1, 0.047766923904418945), (1, 0.05074024200439453), (1, 0.046328067779541016), (1, 0.04383206367492676), (1, 0.06199002265930176), (1, 0.06582927703857422), (1, 0.05865907669067383), (1, 0.057137250900268555), (1, 0.04931998252868652), (1, 0.04964900016784668), (1, 0.057247161865234375), (1, 0.05352210998535156), (1, 0.05908513069152832), (1, 0.060810089111328125), (1, 0.06430172920227051), (1, 0.05940985679626465), (1, 0.05933690071105957), (1, 0.055750370025634766), (1, 0.052366018295288086), (1, 0.0500640869140625), (1, 0.05784296989440918), (1, 0.05504775047302246), (1, 0.05781078338623047), (1, 0.059706926345825195), (1, 0.06124997138977051), (1, 0.06669902801513672), (1, 0.05648994445800781), (1, 0.062348127365112305), (1, 0.050334930419921875), (1, 0.05243110656738281), (1, 0.05950593948364258), (1, 0.052149057388305664), (1, 0.0618290901184082), (1, 0.05540800094604492), (1, 0.06065988540649414), (1, 0.05990004539489746), (1, 0.058402061462402344), (1, 0.059619903564453125), (1, 0.05182003974914551), (1, 0.05192089080810547), (1, 0.056899070739746094), (1, 0.0574488639831543), (1, 0.06048989295959473), (1, 0.06538176536560059), (1, 0.07365989685058594), (1, 0.06568598747253418), (1, 0.0648200511932373), (1, 0.0575718879699707)]
+INFO:root:BatchElements statistics: element_count=50 batch_count=50 next_batch_size=1 timings=[(1, 0.04854702949523926), (1, 0.05101203918457031), (1, 0.05039691925048828), (1, 0.049059152603149414), (1, 0.04316210746765137), (1, 0.06483101844787598), (1, 0.060221195220947266), (1, 0.05890297889709473), (1, 0.057154178619384766), (1, 0.05601811408996582), (1, 0.05122709274291992), (1, 0.057131052017211914), (1, 0.05342411994934082), (1, 0.05736279487609863), (1, 0.0578770637512207), (1, 0.06311178207397461), (1, 0.059564828872680664), (1, 0.06102395057678223), (1, 0.06027698516845703), (1, 0.05224800109863281), (1, 0.05167508125305176), (1, 0.05698823928833008), (1, 0.050993919372558594), (1, 0.05575704574584961), (1, 0.05973696708679199), (1, 0.05770683288574219), (1, 0.0618739128112793), (1, 0.05704903602600098), (1, 0.06070899963378906), (1, 0.05518293380737305), (1, 0.055849313735961914), (1, 0.0610959529876709), (1, 0.052304983139038086), (1, 0.062011003494262695), (1, 0.0578920841217041), (1, 0.0645291805267334), (1, 0.05908322334289551), (1, 0.05949211120605469), (1, 0.059655189514160156), (1, 0.049697160720825195), (1, 0.05271196365356445), (1, 0.055112361907958984), (1, 0.05943799018859863), (1, 0.05999112129211426), (1, 0.06785392761230469), (1, 0.06499624252319336), (1, 0.06319093704223633), (1, 0.06189298629760742), (1, 0.06261086463928223)]
 Model Name: model_b.pth - Output: The capital of France is Paris .;paris
 Model Name: model_b.pth - Output: It is raining cats and dogs .;dogs
 Model Name: model_b.pth - Output: He looked up and saw the sun and stars .;moon
@@ -56,6 +43,14 @@ Model Name: model_b.pth - Output: There are 5 coconuts on this palm tree .;tree
 Model Name: model_b.pth - Output: The richest person in the world is not here .;rich
 Model Name: model_b.pth - Output: Malls are amazing places to shop because you can find everything you need under one roof .;roof
 Model Name: model_b.pth - Output: This audiobook is sure to liquefy your brain .;brain
+Model Name: model_e.pth - Output: The capital of France is Paris .;paris
+Model Name: model_e.pth - Output: It is raining cats and dogs .;dogs
+Model Name: model_e.pth - Output: He looked up and saw the sun and stars .;moon
+Model Name: model_e.pth - Output: Today is Monday and tomorrow is Tuesday .;friday
+Model Name: model_e.pth - Output: There are 5 coconuts on this palm tree .;tree
+Model Name: model_e.pth - Output: The richest person in the world is not here .;rich
+Model Name: model_e.pth - Output: Malls are amazing places to shop because you can find everything you need under one roof .;roof
+Model Name: model_e.pth - Output: This audiobook is sure to liquefy your brain .;brain
 Model Name: model_a.pth - Output: The capital of France is Paris .;paris
 Model Name: model_a.pth - Output: It is raining cats and dogs .;dogs
 Model Name: model_a.pth - Output: He looked up and saw the sun and stars .;moon
@@ -80,14 +75,219 @@ Model Name: model_c.pth - Output: There are 5 coconuts on this palm tree .;tree
 Model Name: model_c.pth - Output: The richest person in the world is not here .;rich
 Model Name: model_c.pth - Output: Malls are amazing places to shop because you can find everything you need under one roof .;roof
 Model Name: model_c.pth - Output: This audiobook is sure to liquefy your brain .;brain
-Model Name: model_d.pth - Output: The secret ingredient to his wonderful life was gratitude .;love
-Model Name: model_d.pth - Output: The biggest animal in the world is the whale .;elephant
+Model Name: model_b.pth - Output: The secret ingredient to his wonderful life was gratitude .;love
+Model Name: model_b.pth - Output: The biggest animal in the world is the whale .;elephant
+Model Name: model_b.pth - Output: The capital of France is Paris .;paris
+Model Name: model_b.pth - Output: It is raining cats and dogs .;dogs
+Model Name: model_b.pth - Output: He looked up and saw the sun and stars .;moon
+Model Name: model_b.pth - Output: Today is Monday and tomorrow is Tuesday .;friday
+Model Name: model_b.pth - Output: There are 5 coconuts on this palm tree .;tree
+Model Name: model_b.pth - Output: The richest person in the world is not here .;rich
 Model Name: model_e.pth - Output: The secret ingredient to his wonderful life was gratitude .;love
 Model Name: model_e.pth - Output: The biggest animal in the world is the whale .;elephant
+Model Name: model_e.pth - Output: The capital of France is Paris .;paris
+Model Name: model_e.pth - Output: It is raining cats and dogs .;dogs
+Model Name: model_e.pth - Output: He looked up and saw the sun and stars .;moon
+Model Name: model_e.pth - Output: Today is Monday and tomorrow is Tuesday .;friday
+Model Name: model_e.pth - Output: There are 5 coconuts on this palm tree .;tree
+Model Name: model_e.pth - Output: The richest person in the world is not here .;rich
 Model Name: model_a.pth - Output: The secret ingredient to his wonderful life was gratitude .;love
 Model Name: model_a.pth - Output: The biggest animal in the world is the whale .;elephant
+Model Name: model_a.pth - Output: The capital of France is Paris .;paris
+Model Name: model_a.pth - Output: It is raining cats and dogs .;dogs
+Model Name: model_a.pth - Output: He looked up and saw the sun and stars .;moon
+Model Name: model_a.pth - Output: Today is Monday and tomorrow is Tuesday .;friday
+Model Name: model_a.pth - Output: There are 5 coconuts on this palm tree .;tree
+Model Name: model_a.pth - Output: The richest person in the world is not here .;rich
+Model Name: model_d.pth - Output: The secret ingredient to his wonderful life was gratitude .;love
+Model Name: model_d.pth - Output: The biggest animal in the world is the whale .;elephant
+Model Name: model_d.pth - Output: The capital of France is Paris .;paris
+Model Name: model_d.pth - Output: It is raining cats and dogs .;dogs
+Model Name: model_d.pth - Output: He looked up and saw the sun and stars .;moon
+Model Name: model_d.pth - Output: Today is Monday and tomorrow is Tuesday .;friday
+Model Name: model_d.pth - Output: There are 5 coconuts on this palm tree .;tree
+Model Name: model_d.pth - Output: The richest person in the world is not here .;rich
 Model Name: model_c.pth - Output: The secret ingredient to his wonderful life was gratitude .;love
 Model Name: model_c.pth - Output: The biggest animal in the world is the whale .;elephant
+Model Name: model_c.pth - Output: The capital of France is Paris .;paris
+Model Name: model_c.pth - Output: It is raining cats and dogs .;dogs
+Model Name: model_c.pth - Output: He looked up and saw the sun and stars .;moon
+Model Name: model_c.pth - Output: Today is Monday and tomorrow is Tuesday .;friday
+Model Name: model_c.pth - Output: There are 5 coconuts on this palm tree .;tree
+Model Name: model_c.pth - Output: The richest person in the world is not here .;rich
+Model Name: model_b.pth - Output: Malls are amazing places to shop because you can find everything you need under one roof .;roof
+Model Name: model_b.pth - Output: This audiobook is sure to liquefy your brain .;brain
+Model Name: model_b.pth - Output: The secret ingredient to his wonderful life was gratitude .;love
+Model Name: model_b.pth - Output: The biggest animal in the world is the whale .;elephant
+Model Name: model_b.pth - Output: The capital of France is Paris .;paris
+Model Name: model_b.pth - Output: It is raining cats and dogs .;dogs
+Model Name: model_b.pth - Output: He looked up and saw the sun and stars .;moon
+Model Name: model_e.pth - Output: Malls are amazing places to shop because you can find everything you need under one roof .;roof
+Model Name: model_e.pth - Output: This audiobook is sure to liquefy your brain .;brain
+Model Name: model_e.pth - Output: The secret ingredient to his wonderful life was gratitude .;love
+Model Name: model_e.pth - Output: The biggest animal in the world is the whale .;elephant
+Model Name: model_e.pth - Output: The capital of France is Paris .;paris
+Model Name: model_e.pth - Output: It is raining cats and dogs .;dogs
+Model Name: model_e.pth - Output: He looked up and saw the sun and stars .;moon
+Model Name: model_a.pth - Output: Malls are amazing places to shop because you can find everything you need under one roof .;roof
+Model Name: model_a.pth - Output: This audiobook is sure to liquefy your brain .;brain
+Model Name: model_a.pth - Output: The secret ingredient to his wonderful life was gratitude .;love
+Model Name: model_a.pth - Output: The biggest animal in the world is the whale .;elephant
+Model Name: model_a.pth - Output: The capital of France is Paris .;paris
+Model Name: model_a.pth - Output: It is raining cats and dogs .;dogs
+Model Name: model_a.pth - Output: He looked up and saw the sun and stars .;moon
+Model Name: model_d.pth - Output: Malls are amazing places to shop because you can find everything you need under one roof .;roof
+Model Name: model_d.pth - Output: This audiobook is sure to liquefy your brain .;brain
+Model Name: model_d.pth - Output: The secret ingredient to his wonderful life was gratitude .;love
+Model Name: model_d.pth - Output: The biggest animal in the world is the whale .;elephant
+Model Name: model_d.pth - Output: The capital of France is Paris .;paris
+Model Name: model_d.pth - Output: It is raining cats and dogs .;dogs
+Model Name: model_d.pth - Output: He looked up and saw the sun and stars .;moon
+Model Name: model_c.pth - Output: Malls are amazing places to shop because you can find everything you need under one roof .;roof
+Model Name: model_c.pth - Output: This audiobook is sure to liquefy your brain .;brain
+Model Name: model_c.pth - Output: The secret ingredient to his wonderful life was gratitude .;love
+Model Name: model_c.pth - Output: The biggest animal in the world is the whale .;elephant
+Model Name: model_c.pth - Output: The capital of France is Paris .;paris
+Model Name: model_c.pth - Output: It is raining cats and dogs .;dogs
+Model Name: model_c.pth - Output: He looked up and saw the sun and stars .;moon
+Model Name: model_b.pth - Output: Today is Monday and tomorrow is Tuesday .;friday
+Model Name: model_b.pth - Output: There are 5 coconuts on this palm tree .;tree
+Model Name: model_b.pth - Output: The richest person in the world is not here .;rich
+Model Name: model_b.pth - Output: Malls are amazing places to shop because you can find everything you need under one roof .;roof
+Model Name: model_b.pth - Output: This audiobook is sure to liquefy your brain .;brain
+Model Name: model_b.pth - Output: The secret ingredient to his wonderful life was gratitude .;love
+Model Name: model_b.pth - Output: The biggest animal in the world is the whale .;elephant
+Model Name: model_e.pth - Output: Today is Monday and tomorrow is Tuesday .;friday
+Model Name: model_e.pth - Output: There are 5 coconuts on this palm tree .;tree
+Model Name: model_e.pth - Output: The richest person in the world is not here .;rich
+Model Name: model_e.pth - Output: Malls are amazing places to shop because you can find everything you need under one roof .;roof
+Model Name: model_e.pth - Output: This audiobook is sure to liquefy your brain .;brain
+Model Name: model_e.pth - Output: The secret ingredient to his wonderful life was gratitude .;love
+Model Name: model_e.pth - Output: The biggest animal in the world is the whale .;elephant
+Model Name: model_a.pth - Output: Today is Monday and tomorrow is Tuesday .;friday
+Model Name: model_a.pth - Output: There are 5 coconuts on this palm tree .;tree
+Model Name: model_a.pth - Output: The richest person in the world is not here .;rich
+Model Name: model_a.pth - Output: Malls are amazing places to shop because you can find everything you need under one roof .;roof
+Model Name: model_a.pth - Output: This audiobook is sure to liquefy your brain .;brain
+Model Name: model_a.pth - Output: The secret ingredient to his wonderful life was gratitude .;love
+Model Name: model_a.pth - Output: The biggest animal in the world is the whale .;elephant
+Model Name: model_d.pth - Output: Today is Monday and tomorrow is Tuesday .;friday
+Model Name: model_d.pth - Output: There are 5 coconuts on this palm tree .;tree
+Model Name: model_d.pth - Output: The richest person in the world is not here .;rich
+Model Name: model_d.pth - Output: Malls are amazing places to shop because you can find everything you need under one roof .;roof
+Model Name: model_d.pth - Output: This audiobook is sure to liquefy your brain .;brain
+Model Name: model_d.pth - Output: The secret ingredient to his wonderful life was gratitude .;love
+Model Name: model_d.pth - Output: The biggest animal in the world is the whale .;elephant
+Model Name: model_c.pth - Output: Today is Monday and tomorrow is Tuesday .;friday
+Model Name: model_c.pth - Output: There are 5 coconuts on this palm tree .;tree
+Model Name: model_c.pth - Output: The richest person in the world is not here .;rich
+Model Name: model_c.pth - Output: Malls are amazing places to shop because you can find everything you need under one roof .;roof
+Model Name: model_c.pth - Output: This audiobook is sure to liquefy your brain .;brain
+Model Name: model_c.pth - Output: The secret ingredient to his wonderful life was gratitude .;love
+Model Name: model_c.pth - Output: The biggest animal in the world is the whale .;elephant
+Model Name: model_b.pth - Output: The capital of France is Paris .;paris
+Model Name: model_b.pth - Output: It is raining cats and dogs .;dogs
+Model Name: model_b.pth - Output: He looked up and saw the sun and stars .;moon
+Model Name: model_b.pth - Output: Today is Monday and tomorrow is Tuesday .;friday
+Model Name: model_b.pth - Output: There are 5 coconuts on this palm tree .;tree
+Model Name: model_b.pth - Output: The richest person in the world is not here .;rich
+Model Name: model_b.pth - Output: Malls are amazing places to shop because you can find everything you need under one roof .;roof
+Model Name: model_b.pth - Output: This audiobook is sure to liquefy your brain .;brain
+Model Name: model_e.pth - Output: The capital of France is Paris .;paris
+Model Name: model_e.pth - Output: It is raining cats and dogs .;dogs
+Model Name: model_e.pth - Output: He looked up and saw the sun and stars .;moon
+Model Name: model_e.pth - Output: Today is Monday and tomorrow is Tuesday .;friday
+Model Name: model_e.pth - Output: There are 5 coconuts on this palm tree .;tree
+Model Name: model_e.pth - Output: The richest person in the world is not here .;rich
+Model Name: model_e.pth - Output: Malls are amazing places to shop because you can find everything you need under one roof .;roof
+Model Name: model_e.pth - Output: This audiobook is sure to liquefy your brain .;brain
+Model Name: model_a.pth - Output: The capital of France is Paris .;paris
+Model Name: model_a.pth - Output: It is raining cats and dogs .;dogs
+Model Name: model_a.pth - Output: He looked up and saw the sun and stars .;moon
+Model Name: model_a.pth - Output: Today is Monday and tomorrow is Tuesday .;friday
+Model Name: model_a.pth - Output: There are 5 coconuts on this palm tree .;tree
+Model Name: model_a.pth - Output: The richest person in the world is not here .;rich
+Model Name: model_a.pth - Output: Malls are amazing places to shop because you can find everything you need under one roof .;roof
+Model Name: model_a.pth - Output: This audiobook is sure to liquefy your brain .;brain
+Model Name: model_d.pth - Output: The capital of France is Paris .;paris
+Model Name: model_d.pth - Output: It is raining cats and dogs .;dogs
+Model Name: model_d.pth - Output: He looked up and saw the sun and stars .;moon
+Model Name: model_d.pth - Output: Today is Monday and tomorrow is Tuesday .;friday
+Model Name: model_d.pth - Output: There are 5 coconuts on this palm tree .;tree
+Model Name: model_d.pth - Output: The richest person in the world is not here .;rich
+Model Name: model_d.pth - Output: Malls are amazing places to shop because you can find everything you need under one roof .;roof
+Model Name: model_d.pth - Output: This audiobook is sure to liquefy your brain .;brain
+Model Name: model_c.pth - Output: The capital of France is Paris .;paris
+Model Name: model_c.pth - Output: It is raining cats and dogs .;dogs
+Model Name: model_c.pth - Output: He looked up and saw the sun and stars .;moon
+Model Name: model_c.pth - Output: Today is Monday and tomorrow is Tuesday .;friday
+Model Name: model_c.pth - Output: There are 5 coconuts on this palm tree .;tree
+WARNING:apache_beam.io.filebasedsink:Deleting 1 existing files in target path matching: 
+INFO:apache_beam.io.filebasedsink:Starting finalize_write threads with num_shards: 1 (skipped: 0), batches: 1, num_threads: 1
+INFO:apache_beam.io.filebasedsink:Renamed 1 shards in 0.05 seconds.
+WARNING:apache_beam.runners.interactive.interactive_environment:Dependencies required for Interactive Beam PCollection visualization are not available, please use: `pip install apache-beam[interactive]` to install necessary dependencies to enable all data visualization features.
+WARNING:apache_beam.runners.interactive.interactive_environment:You cannot use Interactive Beam features when you are not in an interactive environment such as a Jupyter notebook or ipython terminal.
+Model Name: model_c.pth - Output: The richest person in the world is not here .;rich
+Model Name: model_c.pth - Output: Malls are amazing places to shop because you can find everything you need under one roof .;roof
+Model Name: model_c.pth - Output: This audiobook is sure to liquefy your brain .;brain
+Model Name: model_b.pth - Output: The secret ingredient to his wonderful life was gratitude .;love
+Model Name: model_b.pth - Output: The biggest animal in the world is the whale .;elephant
+Model Name: model_b.pth - Output: The capital of France is Paris .;paris
+Model Name: model_b.pth - Output: It is raining cats and dogs .;dogs
+Model Name: model_b.pth - Output: He looked up and saw the sun and stars .;moon
+Model Name: model_b.pth - Output: Today is Monday and tomorrow is Tuesday .;friday
+Model Name: model_b.pth - Output: There are 5 coconuts on this palm tree .;tree
+Model Name: model_b.pth - Output: The richest person in the world is not here .;rich
+Model Name: model_e.pth - Output: The secret ingredient to his wonderful life was gratitude .;love
+Model Name: model_e.pth - Output: The biggest animal in the world is the whale .;elephant
+Model Name: model_e.pth - Output: The capital of France is Paris .;paris
+Model Name: model_e.pth - Output: It is raining cats and dogs .;dogs
+Model Name: model_e.pth - Output: He looked up and saw the sun and stars .;moon
+Model Name: model_e.pth - Output: Today is Monday and tomorrow is Tuesday .;friday
+Model Name: model_e.pth - Output: There are 5 coconuts on this palm tree .;tree
+Model Name: model_e.pth - Output: The richest person in the world is not here .;rich
+Model Name: model_a.pth - Output: The secret ingredient to his wonderful life was gratitude .;love
+Model Name: model_a.pth - Output: The biggest animal in the world is the whale .;elephant
+Model Name: model_a.pth - Output: The capital of France is Paris .;paris
+Model Name: model_a.pth - Output: It is raining cats and dogs .;dogs
+Model Name: model_a.pth - Output: He looked up and saw the sun and stars .;moon
+Model Name: model_a.pth - Output: Today is Monday and tomorrow is Tuesday .;friday
+Model Name: model_a.pth - Output: There are 5 coconuts on this palm tree .;tree
+Model Name: model_a.pth - Output: The richest person in the world is not here .;rich
+Model Name: model_d.pth - Output: The secret ingredient to his wonderful life was gratitude .;love
+Model Name: model_d.pth - Output: The biggest animal in the world is the whale .;elephant
+Model Name: model_d.pth - Output: The capital of France is Paris .;paris
+Model Name: model_d.pth - Output: It is raining cats and dogs .;dogs
+Model Name: model_d.pth - Output: He looked up and saw the sun and stars .;moon
+Model Name: model_d.pth - Output: Today is Monday and tomorrow is Tuesday .;friday
+Model Name: model_d.pth - Output: There are 5 coconuts on this palm tree .;tree
+Model Name: model_d.pth - Output: The richest person in the world is not here .;rich
+Model Name: model_c.pth - Output: The secret ingredient to his wonderful life was gratitude .;love
+Model Name: model_c.pth - Output: The biggest animal in the world is the whale .;elephant
+Model Name: model_c.pth - Output: The capital of France is Paris .;paris
+Model Name: model_c.pth - Output: It is raining cats and dogs .;dogs
+Model Name: model_c.pth - Output: He looked up and saw the sun and stars .;moon
+Model Name: model_c.pth - Output: Today is Monday and tomorrow is Tuesday .;friday
+Model Name: model_c.pth - Output: There are 5 coconuts on this palm tree .;tree
+Model Name: model_c.pth - Output: The richest person in the world is not here .;rich
+Model Name: model_d.pth - Output: Malls are amazing places to shop because you can find everything you need under one roof .;roof
+Model Name: model_d.pth - Output: This audiobook is sure to liquefy your brain .;brain
+Model Name: model_d.pth - Output: The secret ingredient to his wonderful life was gratitude .;love
+Model Name: model_d.pth - Output: The biggest animal in the world is the whale .;elephant
+Model Name: model_e.pth - Output: Malls are amazing places to shop because you can find everything you need under one roof .;roof
+Model Name: model_e.pth - Output: This audiobook is sure to liquefy your brain .;brain
+Model Name: model_e.pth - Output: The secret ingredient to his wonderful life was gratitude .;love
+Model Name: model_e.pth - Output: The biggest animal in the world is the whale .;elephant
+Model Name: model_a.pth - Output: Malls are amazing places to shop because you can find everything you need under one roof .;roof
+Model Name: model_a.pth - Output: This audiobook is sure to liquefy your brain .;brain
+Model Name: model_a.pth - Output: The secret ingredient to his wonderful life was gratitude .;love
+Model Name: model_a.pth - Output: The biggest animal in the world is the whale .;elephant
+Model Name: model_c.pth - Output: Malls are amazing places to shop because you can find everything you need under one roof .;roof
+Model Name: model_c.pth - Output: This audiobook is sure to liquefy your brain .;brain
+Model Name: model_c.pth - Output: The secret ingredient to his wonderful life was gratitude .;love
+Model Name: model_c.pth - Output: The biggest animal in the world is the whale .;elephant
+Model Name: model_b.pth - Output: Malls are amazing places to shop because you can find everything you need under one roof .;roof
+Model Name: model_b.pth - Output: This audiobook is sure to liquefy your brain .;brain
 Model Name: model_b.pth - Output: The secret ingredient to his wonderful life was gratitude .;love
 Model Name: model_b.pth - Output: The biggest animal in the world is the whale .;elephant
 
@@ -95,57 +295,57 @@ Pipeline Digraph:
 
 digraph G {
 node [color=blue, fontcolor=blue, shape=box];
-"CreateSentences";
-pcoll3204 [label="", shape=circle];
+"ReadSentences";
+pcoll898 [label="", shape=circle];
 "FilterEmptyLines";
-pcoll8337 [label="", shape=circle];
+pcoll4131 [label="", shape=circle];
 "AddMask";
-pcoll6413 [label="", shape=circle];
+pcoll1426 [label="", shape=circle];
 "TokenizeSentence";
-pcoll6146 [label="", shape=circle];
+pcoll5433 [label="", shape=circle];
 "PyTorchRunInference_Model_a";
-pcoll5360 [label="", shape=circle];
+pcoll9373 [label="", shape=circle];
 "PyTorchRunInference_Model_b";
-pcoll768 [label="", shape=circle];
+pcoll1632 [label="", shape=circle];
 "PyTorchRunInference_Model_c";
-pcoll3435 [label="", shape=circle];
+pcoll7445 [label="", shape=circle];
 "PyTorchRunInference_Model_d";
-pcoll3331 [label="", shape=circle];
+pcoll5391 [label="", shape=circle];
 "PyTorchRunInference_Model_e";
-pcoll783 [label="", shape=circle];
+pcoll5447 [label="", shape=circle];
 "Flatten";
-pcoll574 [label="", shape=circle];
+pcoll9553 [label="", shape=circle];
 "ProcessOutput";
-pcoll3606 [label="", shape=circle];
+pcoll6543 [label="", shape=circle];
 "WriteOutput";
-pcoll3584 [label="", shape=circle];
-"CreateSentences" -> pcoll3204;
-pcoll3204 -> "FilterEmptyLines";
-"FilterEmptyLines" -> pcoll8337;
-pcoll8337 -> "AddMask";
-"AddMask" -> pcoll6413;
-pcoll6413 -> "TokenizeSentence";
-"TokenizeSentence" -> pcoll6146;
-pcoll6146 -> "PyTorchRunInference_Model_a";
-pcoll6146 -> "PyTorchRunInference_Model_b";
-pcoll6146 -> "PyTorchRunInference_Model_c";
-pcoll6146 -> "PyTorchRunInference_Model_d";
-pcoll6146 -> "PyTorchRunInference_Model_e";
-"PyTorchRunInference_Model_a" -> pcoll5360;
-pcoll5360 -> "Flatten";
-"PyTorchRunInference_Model_b" -> pcoll768;
-pcoll768 -> "Flatten";
-"PyTorchRunInference_Model_c" -> pcoll3435;
-pcoll3435 -> "Flatten";
-"PyTorchRunInference_Model_d" -> pcoll3331;
-pcoll3331 -> "Flatten";
-"PyTorchRunInference_Model_e" -> pcoll783;
-pcoll783 -> "Flatten";
-"Flatten" -> pcoll574;
-pcoll574 -> "ProcessOutput";
-"ProcessOutput" -> pcoll3606;
-pcoll3606 -> "WriteOutput";
-"WriteOutput" -> pcoll3584;
+pcoll6360 [label="", shape=circle];
+"ReadSentences" -> pcoll898;
+pcoll898 -> "FilterEmptyLines";
+"FilterEmptyLines" -> pcoll4131;
+pcoll4131 -> "AddMask";
+"AddMask" -> pcoll1426;
+pcoll1426 -> "TokenizeSentence";
+"TokenizeSentence" -> pcoll5433;
+pcoll5433 -> "PyTorchRunInference_Model_a";
+pcoll5433 -> "PyTorchRunInference_Model_b";
+pcoll5433 -> "PyTorchRunInference_Model_c";
+pcoll5433 -> "PyTorchRunInference_Model_d";
+pcoll5433 -> "PyTorchRunInference_Model_e";
+"PyTorchRunInference_Model_a" -> pcoll9373;
+pcoll9373 -> "Flatten";
+"PyTorchRunInference_Model_b" -> pcoll1632;
+pcoll1632 -> "Flatten";
+"PyTorchRunInference_Model_c" -> pcoll7445;
+pcoll7445 -> "Flatten";
+"PyTorchRunInference_Model_d" -> pcoll5391;
+pcoll5391 -> "Flatten";
+"PyTorchRunInference_Model_e" -> pcoll5447;
+pcoll5447 -> "Flatten";
+"Flatten" -> pcoll9553;
+pcoll9553 -> "ProcessOutput";
+"ProcessOutput" -> pcoll6543;
+pcoll6543 -> "WriteOutput";
+"WriteOutput" -> pcoll6360;
 }
 
 
