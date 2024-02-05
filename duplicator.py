@@ -17,6 +17,6 @@ def duplicate_text_in_file(input_file_path, output_file_path, n):
 
 input_file_path = 'base_input.txt'
 output_file_path = 'duplicated_input.txt'
-n = 5
+n = 50
 
 duplicate_text_in_file(input_file_path, output_file_path, n)
